@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+.header{
+    background-color:#1F2937;
+    height:400px;
+    padding: 30px 350px 0px 350px;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:900;
+    color:#F9FAF8;
+}
+
+ul {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+
+.header-nav, .header-modal{
+    display:flex;
+    justify-content: space-between;
+}
+
+.header-nav{
+    margin-bottom: 80px;
+}
+
+.header-modal-container{
+    padding-right:84px;
+    
+}
+
+.header-modal{
+    height:200px;
+}
+
+.links{
+    display:flex;
+    gap: 30px;
+}
+
+.header-title{
+    font-size:48px;
+    font-weight:900;
+    color:#F9FAF8;
+}
+
+a {
+    font-size:18px;
+    color:#E5E7EB;
+    text-decoration: none;
+}
+
+.header-text{
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+img{
+    width:500px;
+    max-height:100%
+}
+
+.header-button{
+    background-color: #3882F6;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 24px;
+    margin-top:20px;
+}
+
+.content{
+    height: 350px
+}
+
+.content-title{
+    text-align:center;
+    padding:30px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight:900;
+}
+
+.content-container, .register, .footer, .register-modal{
+    display:flex;
+    justify-content: center;
+}
+
+.content-container{
+    gap:80px;
+}
+
+
+.image, .draw{
+    width:120px;
+    height:120px;
+}
+
+.content-text{
+    text-align:center;
+}
+
+.review{
+    height:350px;
+    background-color: #E5E7EB;
+}
+
+.review-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding:80px 540px 80px 540px;
+    text-align:left;
+}
+
+.review-quote{
+    font-size:16px;
+    font-weight:bold;
+    text-align:right;
+}
+
+.register, .footer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.register{
+    height:250px;
+    background-color:white;
+    padding:30px;
+    font-size: 18px;
+}
+
+.register-modal{
+    background-color:#3882F6;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:150px;
+    width:900px;
+    color:white;
+    border-radius: 8px;
+}
+
+.register-title{
+    font-weight:bold;
+}
+
+.register-button{
+    border-color:white;
+    background-color: #3882F6;
+    font-size: 18px;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 24px;
+    border: 3px solid white;
+}
+
+.footer{
+    height: 52px;
+    background: #1F2937;
+    color: white;
+}
